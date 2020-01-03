@@ -1,4 +1,4 @@
-package com.atguigu.gmall.ums.config;
+package com.atguigu.gmall.wms.config;
 
 
 import org.springframework.context.annotation.Configuration;
