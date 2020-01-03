@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4526b892-3266-4194-8631-2bd82f2818a0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-generator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-generator/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-generator/src/main/resources/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OmsOrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OmsOrderItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OmsOrderOperateHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OmsOrderReturnApplyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OmsOrderReturnReasonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OmsOrderSettingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OmsPaymentInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OmsRefundInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/dao/OmsOrderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/dao/OmsOrderItemDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/dao/OmsOrderOperateHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/dao/OmsOrderReturnApplyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/dao/OmsOrderReturnReasonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/dao/OmsOrderSettingDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/dao/OmsPaymentInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/dao/OmsRefundInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OmsOrderEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OmsOrderItemEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OmsOrderOperateHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OmsOrderReturnApplyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OmsOrderReturnReasonEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OmsOrderSettingEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OmsPaymentInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OmsRefundInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/OmsOrderItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/OmsOrderOperateHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/OmsOrderReturnApplyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/OmsOrderReturnReasonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/OmsOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/OmsOrderSettingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/OmsPaymentInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/OmsRefundInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/impl/OmsOrderItemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/impl/OmsOrderOperateHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/impl/OmsOrderReturnApplyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/impl/OmsOrderReturnReasonServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/impl/OmsOrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/impl/OmsOrderSettingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/impl/OmsPaymentInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/service/impl/OmsRefundInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/resources/mapper/oms/OmsOrderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/resources/mapper/oms/OmsOrderItemDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/resources/mapper/oms/OmsOrderOperateHistoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/resources/mapper/oms/OmsOrderReturnApplyDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/resources/mapper/oms/OmsOrderReturnReasonDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/resources/mapper/oms/OmsOrderSettingDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/resources/mapper/oms/OmsPaymentInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-oms/src/main/resources/mapper/oms/OmsRefundInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsAttrAttrgroupRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsAttrController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsAttrGroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsBrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsCategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsCommentReplayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsProductAttrValueController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsSkuImagesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsSkuInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsSkuSaleAttrValueController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsSpuCommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsSpuImagesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsSpuInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/PmsSpuInfoDescController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsAttrAttrgroupRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsAttrDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsAttrGroupDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsBrandDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsCategoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsCommentReplayDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsProductAttrValueDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsSkuImagesDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsSkuInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsSkuSaleAttrValueDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsSpuCommentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsSpuImagesDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsSpuInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/dao/PmsSpuInfoDescDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsAttrAttrgroupRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsAttrEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsAttrGroupEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsBrandEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsCategoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsCommentReplayEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsProductAttrValueEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsSkuImagesEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsSkuInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsSkuSaleAttrValueEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsSpuCommentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsSpuImagesEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsSpuInfoDescEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/entity/PmsSpuInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsAttrAttrgroupRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsAttrGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsAttrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsBrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsCategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsCommentReplayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsProductAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsSkuImagesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsSkuInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsSkuSaleAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsSpuCommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsSpuImagesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsSpuInfoDescService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/PmsSpuInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsAttrAttrgroupRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsAttrGroupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsAttrServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsBrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsCategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsCommentReplayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsProductAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsSkuImagesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsSkuInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsSkuSaleAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsSpuCommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsSpuImagesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsSpuInfoDescServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/PmsSpuInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsAttrAttrgroupRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsAttrDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsAttrGroupDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsBrandDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsCategoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsCommentReplayDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsProductAttrValueDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsSkuImagesDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsSkuInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsSkuSaleAttrValueDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsSpuCommentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsSpuImagesDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsSpuInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/resources/mapper/pms/PmsSpuInfoDescDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsCategoryBoundsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsCouponController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsCouponHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsCouponSpuCategoryRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsCouponSpuRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsHomeAdvController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsHomeSubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsHomeSubjectSpuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsMemberPriceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSeckillPromotionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSeckillSessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSeckillSkuNoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSeckillSkuRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSkuBoundsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSkuFullReductionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSkuLadderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSpuBoundsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSpuFullReductionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/controller/SmsSpuLadderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsCategoryBoundsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsCouponDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsCouponHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsCouponSpuCategoryRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsCouponSpuRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsHomeAdvDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsHomeSubjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsHomeSubjectSpuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsMemberPriceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSeckillPromotionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSeckillSessionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSeckillSkuNoticeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSeckillSkuRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSkuBoundsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSkuFullReductionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSkuLadderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSpuBoundsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSpuFullReductionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/dao/SmsSpuLadderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsCategoryBoundsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsCouponEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsCouponHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsCouponSpuCategoryRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsCouponSpuRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsHomeAdvEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsHomeSubjectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsHomeSubjectSpuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsMemberPriceEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSeckillPromotionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSeckillSessionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSeckillSkuNoticeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSeckillSkuRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSkuBoundsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSkuFullReductionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSkuLadderEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSpuBoundsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSpuFullReductionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/entity/SmsSpuLadderEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsCategoryBoundsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsCouponHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsCouponService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsCouponSpuCategoryRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsCouponSpuRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsHomeAdvService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsHomeSubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsHomeSubjectSpuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsMemberPriceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSeckillPromotionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSeckillSessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSeckillSkuNoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSeckillSkuRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSkuBoundsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSkuFullReductionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSkuLadderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSpuBoundsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSpuFullReductionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/SmsSpuLadderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsCategoryBoundsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsCouponHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsCouponServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsCouponSpuCategoryRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsCouponSpuRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsHomeAdvServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsHomeSubjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsHomeSubjectSpuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsMemberPriceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSeckillPromotionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSeckillSessionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSeckillSkuNoticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSeckillSkuRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSkuBoundsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSkuFullReductionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSkuLadderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSpuBoundsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSpuFullReductionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/java/com/atguigu/gmall/sms/service/impl/SmsSpuLadderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsCategoryBoundsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsCouponDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsCouponHistoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsCouponSpuCategoryRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsCouponSpuRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsHomeAdvDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsHomeSubjectDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsHomeSubjectSpuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsMemberPriceDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSeckillPromotionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSeckillSessionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSeckillSkuNoticeDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSeckillSkuRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSkuBoundsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSkuFullReductionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSkuLadderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSpuBoundsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSpuFullReductionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-sms/src/main/resources/mapper/sms/SmsSpuLadderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsGrowthChangeHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsIntegrationChangeHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsMemberCollectSpuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsMemberCollectSubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsMemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsMemberLevelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsMemberLoginLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsMemberReceiveAddressController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/controller/UmsMemberStatisticsInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsGrowthChangeHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsIntegrationChangeHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsMemberCollectSpuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsMemberCollectSubjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsMemberDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsMemberLevelDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsMemberLoginLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsMemberReceiveAddressDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/dao/UmsMemberStatisticsInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsGrowthChangeHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsIntegrationChangeHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsMemberCollectSpuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsMemberCollectSubjectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsMemberEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsMemberLevelEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsMemberLoginLogEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsMemberReceiveAddressEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/entity/UmsMemberStatisticsInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsGrowthChangeHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsIntegrationChangeHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsMemberCollectSpuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsMemberCollectSubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsMemberLevelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsMemberLoginLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsMemberReceiveAddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsMemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/UmsMemberStatisticsInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsGrowthChangeHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsMemberCollectSpuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsMemberCollectSubjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsMemberLevelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsMemberLoginLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsMemberReceiveAddressServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsMemberServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/java/com/atguigu/gmall/ums/service/impl/UmsMemberStatisticsInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsGrowthChangeHistoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsIntegrationChangeHistoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsMemberCollectSpuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsMemberCollectSubjectDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsMemberDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsMemberLevelDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsMemberLoginLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsMemberReceiveAddressDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-ums/src/main/resources/mapper/ums/UmsMemberStatisticsInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/controller/WmsFeightTemplateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/controller/WmsShAreaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/controller/WmsWareInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/controller/WmsWareOrderTaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/controller/WmsWareOrderTaskDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/controller/WmsWareSkuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/dao/WmsFeightTemplateDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/dao/WmsShAreaDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/dao/WmsWareInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/dao/WmsWareOrderTaskDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/dao/WmsWareOrderTaskDetailDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/dao/WmsWareSkuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/entity/WmsFeightTemplateEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/entity/WmsShAreaEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/entity/WmsWareInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/entity/WmsWareOrderTaskDetailEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/entity/WmsWareOrderTaskEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/entity/WmsWareSkuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/WmsFeightTemplateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/WmsShAreaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/WmsWareInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/WmsWareOrderTaskDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/WmsWareOrderTaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/WmsWareSkuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/impl/WmsFeightTemplateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/impl/WmsShAreaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/impl/WmsWareInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/impl/WmsWareOrderTaskDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/impl/WmsWareOrderTaskServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/java/com/atguigu/gmall/wms/service/impl/WmsWareSkuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/resources/mapper/wms/WmsFeightTemplateDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/resources/mapper/wms/WmsShAreaDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/resources/mapper/wms/WmsWareInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/resources/mapper/wms/WmsWareOrderTaskDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/resources/mapper/wms/WmsWareOrderTaskDetailDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-wms/src/main/resources/mapper/wms/WmsWareSkuDao.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\CrowdFunding\Server\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1Vrk0eIh5mx4YLwisbSYD99Dlj5" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UNUSED_IMPORT</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-ums/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gmall.wms.config" />
+      <recent name="com.atguigu.gmall.ums.config" />
+      <recent name="com.atguigu.gmall.sms.config" />
+      <recent name="com.atguigu.gmall.oms.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\gmall\gmall-ums\src\main\resources" />
+      <recent name="E:\idea-workspace\gmall\gmall-ums\src\main\java\com\atguigu\gmall\ums" />
+      <recent name="E:\idea-workspace\gmall\gmall-sms\src\main\resources" />
+      <recent name="E:\idea-workspace\gmall\gmall-sms\src\main\java\com\atguigu\gmall\sms" />
+      <recent name="E:\idea-workspace\gmall\gmall-oms\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GmallPmsApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmall-core [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/gmall-core" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallAdminMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.GmallAdminMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallOmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-oms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.oms.GmallOmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallPmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gmall-pms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.pms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.pms.GmallPmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.sms.GmallSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-ums" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.ums.GmallUmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallWmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-wms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.wms.GmallWmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gmall-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.gmall-core [install]" />
+      <item itemvalue="Spring Boot.GmallSmsApplication" />
+      <item itemvalue="Spring Boot.GmallOmsApplication" />
+      <item itemvalue="Spring Boot.GmallWmsApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.GmallAdminMainApplication" />
+      <item itemvalue="Spring Boot.GmallUmsApplication" />
+      <item itemvalue="Spring Boot.GmallPmsApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GmallPmsApplication" />
+        <item itemvalue="Spring Boot.RenrenApplication" />
+        <item itemvalue="Maven.gmall-core [install]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4526b892-3266-4194-8631-2bd82f2818a0" name="Default" comment="" />
+      <created>1577757993360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577757993360</updated>
+      <workItem from="1577757998809" duration="16587000" />
+      <workItem from="1577954938074" duration="6919000" />
+      <workItem from="1577962865264" duration="3406000" />
+      <workItem from="1578011096067" duration="1488000" />
+      <workItem from="1578012634975" duration="3076000" />
+      <workItem from="1578018385757" duration="183000" />
+      <workItem from="1578019426934" duration="2450000" />
+    </task>
+    <task id="LOCAL-00001" summary="项目初始化">
+      <created>1577762560461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577762560461</updated>
+    </task>
+    <task id="LOCAL-00002" summary="项目初始化">
+      <created>1577762793749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577762793749</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目初始化">
+      <created>1578012948700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578012948700</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="197" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578019939697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="197" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578019939697" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1578018483883">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578018483883" />
+    <state width="1342" height="205" key="GridCell.Tab.0.bottom" timestamp="1578023589250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578023589250" />
+    <state width="1342" height="205" key="GridCell.Tab.0.center" timestamp="1578023589250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578023589250" />
+    <state width="1342" height="205" key="GridCell.Tab.0.left" timestamp="1578023589249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578023589249" />
+    <state width="1342" height="205" key="GridCell.Tab.0.right" timestamp="1578023589250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578023589250" />
+    <state width="1342" height="205" key="GridCell.Tab.1.bottom" timestamp="1578023589250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578023589250" />
+    <state width="1342" height="205" key="GridCell.Tab.1.center" timestamp="1578023589250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578023589250" />
+    <state width="1342" height="205" key="GridCell.Tab.1.left" timestamp="1578023589250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578023589250" />
+    <state width="1342" height="205" key="GridCell.Tab.1.right" timestamp="1578023589250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="205" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578023589250" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1578018570576">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578018570576" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1578023609811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578023609811" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gmall</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
