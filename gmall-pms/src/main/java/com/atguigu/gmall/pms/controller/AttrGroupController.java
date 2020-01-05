@@ -1,12 +1,14 @@
 package com.atguigu.gmall.pms.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
 import com.atguigu.core.bean.PageVo;
 import com.atguigu.core.bean.QueryCondition;
 import com.atguigu.core.bean.Resp;
+import com.atguigu.gmall.pms.vo.AttrGroupVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +34,44 @@ import com.atguigu.gmall.pms.service.AttrGroupService;
 public class AttrGroupController {
     @Autowired
     private AttrGroupService attrGroupService;
+
+
+    /**
+     * 查询组
+     * @param condition
+     * @param cid
+     * @return
+     */
+    @GetMapping("/{cid}")
+    public Resp<PageVo> queryAttrgroup( QueryCondition condition,
+                                        @PathVariable("cid") Long cid
+    ){
+
+
+        PageVo pageVo = attrGroupService.queryAttrgroup(condition, cid);
+
+        return Resp.ok(pageVo);
+    }
+
+    /**
+     *根据分类id 查询该类所需的spu规格参数
+     */
+    @GetMapping("withattrs/cat/{catId}")
+    public Resp<List<AttrGroupVo>> queryByCid(@PathVariable("catId")Long cid){
+
+        List<AttrGroupVo> attrGroupVos= attrGroupService.queryByCid(cid);
+        return  Resp.ok(attrGroupVos);
+
+    }
+    /**
+     * 查询组关联信息
+     */
+  @GetMapping("withattr/{gid}")
+        public Resp<AttrGroupVo> queryById(@PathVariable("gid") Long gid){
+        AttrGroupVo vo=attrGroupService.queryById(gid);
+
+        return  Resp.ok(vo);
+        }
 
     /**
      * 列表

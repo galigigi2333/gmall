@@ -1,12 +1,14 @@
 package com.atguigu.gmall.pms.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
 import com.atguigu.core.bean.PageVo;
 import com.atguigu.core.bean.QueryCondition;
 import com.atguigu.core.bean.Resp;
+import com.atguigu.gmall.pms.vo.SpuInfoVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +34,20 @@ import com.atguigu.gmall.pms.service.SpuInfoService;
 public class SpuInfoController {
     @Autowired
     private SpuInfoService spuInfoService;
+
+    /**
+     * 查询商品列表
+     */
+
+    @GetMapping
+    public Resp<PageVo> queryByCidOrKey(QueryCondition condition,@RequestParam Long catId){
+
+        PageVo pageVo = this.spuInfoService.queryByCidOrKey(condition, catId);
+        return Resp.ok(pageVo);
+
+
+    }
+
 
     /**
      * 列表
@@ -64,8 +80,8 @@ public class SpuInfoController {
     @ApiOperation("保存")
     @PostMapping("/save")
     @PreAuthorize("hasAuthority('pms:spuinfo:save')")
-    public Resp<Object> save(@RequestBody SpuInfoEntity spuInfo){
-		spuInfoService.save(spuInfo);
+    public Resp<Object> save(@RequestBody SpuInfoVo spuInfo){
+		spuInfoService.bigsave(spuInfo);
 
         return Resp.ok(null);
     }
